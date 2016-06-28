@@ -12,7 +12,7 @@ Some of the main language features are:
 More examples located in the testFiles directory
 
 A while loop and and if/else statements and some printing:
-```
+```C
 // Tests out breaks and continue statements as whell as while loops and printing
 i=0
 while i < 10 {  // Loop 10 times
@@ -30,7 +30,7 @@ print "\n", i, "\n"
 ```
 
 Print the fibbonacci sequence:
-```
+```C
 func fib(x) {
 	if x < 2 {  // Recursive base case
 		return 1
