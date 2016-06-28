@@ -1,0 +1,46 @@
+// Relational size
+println 5 > 10		// 0
+println 5 > 5			// 0
+println 5 > 1			// 1
+println 
+
+println 5 < 10		// 1
+println 5 < 5			// 0
+println 5 < 1			// 0
+println 
+
+println 5 <= 10		// 1
+println 5 <= 5		// 1
+println 5 <= 1		// 0
+println 
+
+println 5 >= 10		// 0
+println 5 >= 5		// 1
+println 5 >= 1		// 1
+println 
+
+// Relational EQ
+println 1 == 2		// 0
+println 5 == 5		// 1
+println 
+
+println 1 != 1		// 0
+println 1 != 5		// 1
+println 
+
+// Logical
+println 1 AND 2		// 1
+println 0 AND 3		// 0
+println 
+
+println 1 OR 2		// 1
+println 0 OR 3		// 1
+println 0 OR 0		// 0
+println 
+
+// unary not
+println !5			// 0
+println !0			// 1
+
+println true		// 1
+println false		// 0

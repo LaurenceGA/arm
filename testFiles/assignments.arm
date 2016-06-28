@@ -1,0 +1,20 @@
+a = 1
+println a
+a = 2
+println a
+
+b = a+3
+println b - 2
+println b + 3
+
+a = "hello"
+b = "world"
+println a, b
+
+b = a
+println a, b
+
+b = "world"
+a = "hello "
+
+println a, b

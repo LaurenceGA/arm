@@ -1,0 +1,13 @@
+i=0
+while i < 10 {
+	if i == 2 {
+		i = i + 1
+		continue
+	} else if i == 5 {
+		break
+		print 1000000, "\n"
+	}
+	print i, "\n"
+	i = i + 1
+}
+print "\n", i, "\n"

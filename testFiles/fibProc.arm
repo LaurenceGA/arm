@@ -1,0 +1,13 @@
+func fib(x) {
+	a = 0
+	b = 1
+	while b < x {
+		print b, " "
+		c = b
+		b = a + b
+		a = c
+	}
+	print
+}
+
+fib(1000)

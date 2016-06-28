@@ -1,0 +1,15 @@
+func fac(x) {
+	//println x
+	if x <= 1 {
+		return 1
+	} else {
+		return fac(x-1) * x
+	}
+}
+
+println fac(3)	// 6
+println fac(4)	// 24
+println fac(5)	// 120
+println fac(6)	// 720
+println fac(7)	// 5040
+println fac(8)	// 40320
