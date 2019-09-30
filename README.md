@@ -13,7 +13,7 @@ More examples located in the testFiles directory
 
 A while loop and and if/else statements and some printing:
 ```C
-// Tests out breaks and continue statements as whell as while loops and printing
+// Tests out breaks and continue statements as well as while loops and printing
 i=0
 while i < 10 {  // Loop 10 times
 	if i == 2 {
@@ -48,7 +48,7 @@ print // Prints a newline
 ```
 
 ## Operator precedence
-The language support a detailde operator precedence heirachy including not only useful precedence, but also associativity. The breakdown is as follows:   
+The language supports a detailed operator precedence heirachy including not only precedence, but also associativity. The breakdown is as follows:   
 
 | Operator  | Description          | Associativity |
 | --------- | -------------------- | ------------- |
